@@ -10,7 +10,7 @@ import MyOrder from "@pages/MyOrder";
 import MyOrders from "@pages/MyOrders";
 import NotFound from "@pages/NotFound";
 import MyAccount from "@pages/MyAccount";
-import "@styles/global.css";
+import "@styles/Global.css";
 import AppContext from "@context/AppContext";
 import useInitialState from '@hooks/useInitialState';
 
