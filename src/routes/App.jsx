@@ -19,7 +19,7 @@ const App = () => {
   return (
     
     <AppContext.Provider value={initialState}> 
-      <BrowserRouter "/react-shop">
+      <BrowserRouter >
         <Layout>
           <Routes>
             <Route exact path="/login" element={<Login />} />
