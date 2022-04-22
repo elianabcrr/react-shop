@@ -1,0 +1,25 @@
+@import 'vars';
+
+.order-cart {
+    display: grid;
+    grid-template-columns: auto 1fr auto auto;
+    gap: 16px;
+    margin-bottom: 24px;
+    text-align: left;
+}
+.order-cart figure{
+    margin: 0;
+}
+.order-cart figure img{
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.order-cart p:nth-child(2){
+    color: var(--very-light-pink);
+}
+.order-cart p:nth-child(3){
+    font-size: var(--md);
+    font-weight: bold;
+}

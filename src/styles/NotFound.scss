@@ -1,0 +1,44 @@
+@import 'vars';
+.content-not-found .row {
+    display: flex;
+    padding: 0 40px;
+    align-items: center;
+}
+.content-not-found .col-6 {
+    width: 50%;
+}
+.content-not-found .col-6.text{
+    padding: 0 76px;
+    text-align: center;
+}
+.content-not-found h1 {
+    font-size: 62px;
+    margin: 0;
+    color: var(--black);
+}
+.content-not-found h2 {
+    font-size: 62px;
+    margin: 0;
+    color: var(--black);
+}
+.content-not-found p {
+    font-weight: 500;
+    font-size: var(--md);
+    margin-top: 22px;
+    margin-bottom: 36px;
+    color: var(--black);
+    line-height: 25px;
+}
+.content-not-found .button-back{
+    background-color: var(--hospital-green);
+    border-radius: 8px;
+    border: none;
+    color: var(--white);
+    width: 100%;
+    cursor: pointer;
+    font-size: var(--md);
+    font-weight: bold;
+    height: 50px;
+    padding: 10px 30px;
+    text-decoration: none;
+}

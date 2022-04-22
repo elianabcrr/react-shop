@@ -1,0 +1,18 @@
+@import 'vars';
+
+section.main-container {
+    padding: 50px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.cards-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 250px);
+    gap: 30px;
+    place-content: center;
+}
+@media(max-width:767px){
+    .cards-container{
+        grid-template-columns: repeat( auto-fill, 140px);
+    }
+}
