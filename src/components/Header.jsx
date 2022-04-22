@@ -2,7 +2,7 @@ import React, {useState, useContext} from 'react';
 import '@styles/Header.scss';
 import Menu from '@components/DesktopMenu';
 import menu from '@icons/icon_menu.svg';
-import logoSite from '@ilogos/logo_yard.svg';
+import logoSite from '@logos/logo_yard.svg';
 import shoppingCartIcon from '@icons/icon_shopping_cart.svg';
 import AppContext from '@context/AppContext';
 import ShoppingCart from '@containers/ShoppingCart';
