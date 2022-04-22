@@ -2,8 +2,8 @@ import React, {useState, useContext} from 'react';
 import '@styles/Header.scss';
 import Menu from '@components/DesktopMenu';
 import menu from '@icons/icon_menu.svg';
-import logoSite from '@icons/logo_yard.svg';
-import shoppingCartIcon from '@logos/icon_shopping_cart.svg';
+import logoSite from '@ilogos/logo_yard.svg';
+import shoppingCartIcon from '@icons/icon_shopping_cart.svg';
 import AppContext from '@context/AppContext';
 import ShoppingCart from '@containers/ShoppingCart';
 
