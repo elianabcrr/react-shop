@@ -21,7 +21,7 @@ const Header = () => {
 		<nav>
 			<img src={menu} alt="menu" className="menu" />
 			<div className="navbar-left">
-				<img src={logoSite} alt="logo" className="nav-logo" />
+				<img src="../assets/logos/logo_yard_sale.svg" alt="logo" className="nav-logo" />
 				<ul>
 					<li>
 						<a href="/">All</a>
